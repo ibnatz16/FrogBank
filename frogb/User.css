@@ -1,0 +1,153 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.head_padding
+{
+    margin-left: -8px;
+    float:left;
+}
+.padding{
+    width:-200px;
+    margin: auto;
+}
+.head
+{
+    background: none no-repeat scroll 0 0 #66CDAA;
+    height: 75px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    
+}
+body {
+    background-image: url("1510383.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: auto;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+.head a {
+    float: left;
+    color: #F0FFF0;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 30px;
+    line-height: 25px;
+    border-radius: 4px;
+    font-family: 'Bebas Neue';
+    margin-top: 10px;
+    
+}
+    
+.head a.logo {
+    font-size: 60px;
+    font-weight: bold;
+    margin-left: 189px;
+    margin-top: 15px;
+}
+h2{
+    margin-top: 100px;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Bebas Neue';
+}
+/* Month header */
+.month {
+    padding: 70px 15px;
+    width: 97.8%;
+    background: beige;
+    text-align: center;
+    font-family: 'Bebas Neue';
+  }
+  
+  /* Month list */
+  .month ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .month ul li {
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+  }
+  
+  /* Previous button inside month header */
+  .month .prev {
+    float: left;
+    padding-top: 10px;
+  }
+  
+  /* Next button */
+  .month .next {
+    float: right;
+    padding-top: 10px;
+  }
+  
+  /* Weekdays (Mon-Sun) */
+  .weekdays {
+    margin: 0;
+    padding: 10px 0;
+    background-color:#ddd;
+  }
+  
+  .weekdays li {
+    display: inline-block;
+    width: 13.6%;
+    color: #666;
+    text-align: center;
+  }
+  
+  /* Days (1-31) */
+  .days {
+    padding: 10px 0;
+    background: #eee;
+    margin: 0;
+  }
+  
+  .days li {
+    list-style-type: none;
+    display: inline-block;
+    width: 13.6%;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size:12px;
+    color: #777;
+  }
+  
+  /* Highlight the "current" day */
+  .days li .active {
+    padding: 5px;
+    background: #1abc9c;
+    color: white !important
+  }
+  ul {list-style-type: none;}
+  .register_btn{
+    background-color: rgb(121, 102, 205);
+    border: none;
+    color: #F0FFF0;
+    width: 100px;
+    margin-top: 10px;
+    margin-left: 660px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 25px;
+    font-family: 'Bebas Neue';
+    }
